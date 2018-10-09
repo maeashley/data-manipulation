@@ -24,11 +24,3 @@ const after = before.reduce(function (acc, item) {
 }, {});
 
 console.log(after);
-
-/*expected output:
-var obj = {
-    year: '2016',
-    make: 'Porsche',
-    model: '911 R',
-    color: 'white'
-}*/
